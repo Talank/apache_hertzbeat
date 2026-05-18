@@ -21,6 +21,7 @@ run-name: Native collector release build (${{ github.ref_name }})
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   build-native-collector:
